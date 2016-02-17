@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100normal,100italic,300normal,300italic,400normal,400italic,500normal,500italic,700normal,700italic,900normal,900italic|Open+Sans:400normal|Lato:400normal|Oswald:400normal|Raleway:400normal|PT+Sans:400normal|Source+Sans+Pro:400normal|Droid+Sans:400normal|Ubuntu:400normal|Roboto+Condensed:400normal|Montserrat:400normal&subset=all' rel='stylesheet' type='text/css'>
+		<!-- jQuery library (served from Google) -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+		   $(function () {
+
+
+			  // Slideshow 3
+			  $("#slider3").responsiveSlides({
+				auto: false,
+				pager: false,
+				nav: true,
+				speed: 500,
+				maxwidth:1920,
+				namespace: "large-btns"
+			  });
+
+			});
+		</script>
+		
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="container">
+					<div class="col col-2">
+						<div id="logo">
+							<a href="#" title="logo"><img src="images/logo.png" alt="logo"></a>
+						</div>
+					</div>
+					<label for="drop" class="toggle"><span style="float:left;">Menu</span><span style="float:right"><span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></span></label>
+					
+					<input type="checkbox" id="drop" />
+					<ul class="menu col col-8 navigation">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Md#6</a></li>
+						<li><a href="#">About manuel</a></li>
+						<li><a href="#">shop</a></li>
+						<li><a href="#">contact</a></li>
+						<li><a href="#" class="active">Volounteer</a></li>
+					</ul>
+					<div class="col col-2">
+						<div class="icon_section">
+						<img src="images/uk.png">
+						<div class="clearfix"></div>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li>|<a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section id="banner">
+			<div class="rslides_container">
+			  <ul class="rslides" id="slider3">
+				<li><img src="images/banner1.jpg" alt=""></li>
+				<li><img src="images/banner2.jpg" alt=""></li>
+				<li><img src="images/banner3.jpg" alt=""></li>
+			  </ul>
+			</div>
+		</section>
+		<section id="content">
+			<div class="section group">
+				<div class="container">
+					<div class="col col-12 text-center block1">
+						<h1 class="text-center">Welcome To Manuel Dub Easter Festival Volounteer</h1>
+						<p>Manuel Dub is a strictly not-for-profit event dedicated to the memory of Manuel. On the one hand, this has enabled us to host some of dub music's finest artists who after feeling moved by the energy, dedication and love that goes into the eventagree to perform for a  reduced fee or even free of charge. On the other hand it means that we are in constant need of  volunteers to make it happen and keep it going.</p>
+					</div>
+				</div>	
+			</div>
+			<div class="background_img_section">
+				<div class="application_view">
+					<div class="container">
+						<span><h1>Fill up the application form</h1></span>
+						<span><h1>And</h1></span>
+						<span><h1>Join our family</h1></span>
+					</div>
+				</div>
+			</div>
+				<div class="content_more">
+					<div class="container">
+					<p>You simply just have to choose the shift you want in our system. You are going to provide us with few personal detailsas well as professional background and skills but don't worry, we only want to know how we can use your awesomeskills to arrange the best edition of MD festival ever!!  </p>
+					<p>If you have any query or assistance please <a id="flip">contact us</p> 
+					<div id="panel">
+					<div class="row">
+						<div class="col col-6">
+						<h1 class="cont_title">Contact Form</h1>
+						<form id="contact_form" name="myform">	
+						<div><label class="field fname"> Name :</label>
+						<input type="text" required="" id="name_contact" class="name_contact" name="name_contact"></div>
+						<div><label class="field email">Email :</label>
+							<input type="email" name="email" class="email_contact" id="email_contact" required></div>
+						<div><label class="field fname">Message :</label>
+							<textarea rows="10" cols="40"  name="text_area" class="text_area_contact" id="text_area_contact" required></textarea></div>
+
+						<div class="col col-12">
+								<input type="submit" class="contact_submit" value="Send">
+							</div>
+						</form>
+						
+						</div>
+						
+
+						<div class="col col-6 cont_details">
+						<h1>Conatct us</h1>
+						<h3>Manuel Hub</h3>
+						<span>Sakthikumar</span><br>
+						<span>Phone: + 91 95006 70123</span><br>
+						<span>Email:<a class="active mail" href="mailto:sakthikumar163@gmail.com"> sakthikumar163@gmail.com</a></span><br>
+						
+						</div>
+						<div class="clearfix"></div>
+						</div>
+					</div>
+					
+					</p>
+					<p class="text-center">So tell us a bit about yourself filling up the form below::</p>
+						<!--form-->
+						<form id="volounteer_form" class="volounteer_form" name="submit_form" method="post" action="#">
+							<div class="row">
+								<div class="col col-6">
+									<label class="field fname">First Name :</label>
+									<input type="text" name="fname" class="first_name"  id="first_name"required >
+								</div>
+								<div class="col col-6">
+									<label class="field fname">Second Name :</label>
+									<input type="text" name="lname" class="last_name"  id="last_name"required>
+								</div>
+								<div class="clearfix"></div>
+							</div>	
+							<div class="row">
+								<div class="col col-6">
+									<h3>Address</h3>
+									<label class="field country" name="country" class="country">Country :</label>
+										<div class="select-style">
+											<select id="country" required>
+												<option value="">Select Country</option>
+												<option value="America">America</option>
+												<option value="Australia">Australia</option>
+												<option value="Africa">Africa</option>
+												<option value="Germany">Germany</option>
+											</select> 
+										</div> 
+										<label class="field street">Street :</label>
+										<input type="text" name="street" class="street_name" id="street_name" required>
+											<div class="row">
+												<div class="col col-5">
+													<label class="field city">City :</label>
+													<input type="text" name="city" class="city_name" id="city_name" required>
+												</div>
+												<div class="col col-7">
+													<label class="field zip">Zip :</label>
+													<input type="number" name="zip" class="zip_number" id="zip_number" required>
+												</div>
+											</div>
+										</div>
+									<div class="col col-6 radio">
+										<label class="field fname">Gender :</label>
+									 <div>
+									<input required id="radio" type="radio" name="radio" value="1" class="radio" ><label for="radio1"><span><span></span></span>M</label>
+      </div>
+      <div>
+        <input  required id="radio" type="radio" name="radio" value="2" class="radio"><label for="radio2"><span><span></span></span>F</label>
+      </div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="row">
+								<div class="col col-6">
+									<label class="field email">Email :</label>
+									<input type="email" name="email" class="email" id="mymail" required>
+								</div>
+								<div class="col col-6">
+									<label class="field tele">Telephone Number :</label>
+									<input type="tel" name="tel" class="tel" id="tel" required><br>
+									<span>Enter telephone number. Add +xx for international numbers</span>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							
+							<div class="row">
+								<div class="col col-6">
+									<label class="field skills">Skills :</label>
+									<div>
+        <input id="checkbox" type="checkbox" name="checkbox" value="1" class="checkbox"><label for="checkbox1"><span></span>Option 1</label>
+      </div>
+      <div>
+        <input id="checkbox" type="checkbox" name="checkbox" value="2" class="checkbox"><label for="checkbox2"><span></span>Option 2</label>
+      </div>
+      <div>
+        <input id="checkbox" type="checkbox" name="checkbox" value="3" class="checkbox"><label for="checkbox3"><span></span>Option 3</label>
+      </div>
+	  <div>
+        <input id="checkbox" type="checkbox" name="checkbox" value="4" class="checkbox"><label for="checkbox1"><span></span>Option 1</label>
+      </div>
+      <div>
+        <input id="checkbox" type="checkbox" name="checkbox" value="5"class="checkbox"><label for="checkbox2"><span></span>Option 2</label>
+      </div>
+      <div>
+        <input id="checkbox" type="checkbox" name="checkbox" value="6" class="checkbox"><label for="checkbox3"><span></span>Option 3</label>
+      </div>
+      
+									<span>Thick of the skills / prerequestie you have</span>
+								</div>
+								<div class="col col-6">
+									<label class="field fname">Comments and relevent experience :</label>
+									<textarea rows="10" cols="40"  name="text_area" class="text_area" id="text_area" required></textarea>
+									<br>
+									<span>Use this fiels to enter relevent comments and / or experience</span>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="col col-12 text-center">
+								<input type="submit" class="button_click" value="Join Now!">
+							</div>
+						</form>
+						<!--- form -->
+						<div class="row">
+						<div class="col col-6">
+						<h3>Manuel Dub Easter Festival Party For Volounteer route google map view here</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.20747177720398!2d-0.12785470605475924!3d51.507353266462104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2sin!4v1455611405316" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+						<div class="col col-6">
+						<h3>Check the video below to get an impression of Manuel Dub vibe, and how 
+much volunteer mean for us.</h3>
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/HW6btC8wQkQ" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="clearfix"></div>
+						</div>
+					</div>	
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="section group">
+				<div class="col col-12 text-center">
+					<p class="text-center">Copyright &copy 2015 Manuel Dub - +39 347 0120755 - <a href="mailto:info@manueldub.org">info@manueldub.org</a></p>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script>
+$("document").ready(function(){
+$(".button_click").click(function(e){
+				if( $("input[name=checkbox]:checked").length == 0){
+					$("input[name=checkbox]").attr("required", "required");
+				}else{
+					$("input[name=checkbox]").removeAttr("required");				
+					$("form").submit();
+				}			
+			});
+$("#volounteer_form").submit(function(){
+		var first_name = $("#first_name").val();
+		var last_name = $("#last_name").val();
+		var country = $("#country").val();
+		var street_name = $("#street_name").val();
+		var city_name = $("#city_name").val();
+		var zip_number = $("#zip_number").val();
+		var radio = $("#radio").val();
+		var email = $("#mymail").val();
+		var tel = $("#tel").val();
+		var checkbox = $("#checkbox").val();
+		var text_area = $("#text_area").val();
+		console.log('First name:'+first_name);
+		console.log('Last name:'+last_name);
+		console.log('Country:'+country);
+		console.log('Street Name:'+street_name);
+		console.log('City Name:'+city_name);
+		console.log('Zip Number:'+zip_number);
+		console.log('Gender:'+radio);
+		console.log('Email:'+email);
+		console.log('Telephone:'+tel);
+		console.log('Skills:'+checkbox);
+		console.log('Message:'+text_area);
+		return false;
+});
+$("#panel").hide();
+$("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+	
+			});
+</script>
+</html>	
